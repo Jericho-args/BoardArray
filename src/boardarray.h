@@ -13,11 +13,16 @@ class BoardArray : public Board {
             index = 0;
         }
 
+        
         void add(Entry* entry) {
-            // TODO: IMPLEMENT THIS FUNCTION
-            // ALGORITHM IS PROVIDED IN INSTRUCTIONS.TXT
-            return;
+            
+            for(int i = o; i < index; i++){
+                if(entry -> compare(&array[i]);)
+            }
         }
+
+        array[index] = *entry;
+        index++;
 
         void print() {
             for (int i = 0; i < index; i++) {
